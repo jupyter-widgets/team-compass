@@ -1,2 +1,7 @@
-# team-compass
-A repository for team meetings and org-wide organization things
+# Jupyter Widgets Team Compass
+
+A repository for team discussion, syncing, and meeting notes.
+
+## Bi-weekly Team Meetings (every other week)
+
+<in-progress>
