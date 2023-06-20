@@ -5,9 +5,66 @@
 
 [8.0 milestone](https://github.com/jupyter-widgets/ipywidgets/milestone/30)
 
+## 22 Nov 2022
+
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Vidar T Fauske | JP Morgan Chase | @vidartf |
+| Jason Grout | Databricks | @jasongrout |
+|Itay Dafna| Netflix | @ibdafna |
+
+- SSC: Vidar is tallying the results
+- EC election
+  - Useful if Brian, Darian, and Fernando post their interest answers
+
+## 15 Nov 2022
+
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Vidar T Fauske | JP Morgan Chase | @vidartf |
+| Jason Grout | Databricks | @jasongrout |
+| Maarten Breddels | - | @maartenbreddels |
+|Itay Dafna| Netflix | @ibdafna |
+| Pete Blois | Google | @blois |
+| Martin Renou | QuantStack | @martinRenou |
+| Supriya Khandekar | Bloomberg |@supriyakhandekar |
+| Kellie Tay | Bloomberg | @kellietay |
+
+- Maarten: issue
+  - https://github.com/jupyter-widgets/ipywidgets/issues/3635
+  - Maarten to open a PR to revert and possibly a second PR to reenable 
+
+- Pete: rich output progress: https://github.com/jupyterlab/richoutput-js
+  - https://github.com/blois/richoutput-js/tree/comms_n_widgets
+  - a stab at a renderer which supports widgets on top of it: https://github.com/blois/portable-widget-manager/tree/main
+
+- Martin: Voila removing the custom widget manager and reusing the JupyterLab `KernelWidgetManager` manager
+  - https://github.com/voila-dashboards/voila/pull/1249
+  - Needs https://github.com/jupyter-widgets/ipywidgets/pull/3561 for the `Output` widget. Vidar reviewing.
+
+- Vidar: SSC representative: email went out on Saturday to the Jupyter Widgets council to vote for an SSC representative. Deadline is Sunday, 20 Nov 2022, anywhere on earth.
+  - Jason to post an email about having 1-year terms for SSC rep
+- Jason: EC election starting very soon: https://jupyter.org/governance/intro.html, https://jupyter.org/governance/bootstrapping_executive_council.html
+- triage:
+  - https://github.com/jupyter-widgets/ipywidgets/pull
+
+## 08 Nov 2022
+
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Jason Grout | Databricks | @jasongrout |
+| Vidar T Fauske | JP Morgan Chase | @vidartf |
+||||
+
+- Notes in team-compass: https://github.com/jupyter-widgets/team-compass
+- Jupyter-widgets SSC representative
+  - Election of SSC representative
+    - if there are two people, then any form that chooses between the two people and has a "blank" option works
+    - if there are more than two people, the ballot is ranked-choice.
+    - Election run for 1 week
+- reviewers: https://github.com/jupyter-widgets/ipywidgets/pulls
 
 ## 01 Nov 2022
-
 
 | Name | Affiliation | GitHub |
 |------|-------------|--------|
