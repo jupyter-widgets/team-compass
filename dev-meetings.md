@@ -1,9 +1,387 @@
 # Jupyter Widgets weekly meeting
 
-- When: Tuesdays [9.30AM Pacific Time](https://www.thetimezoneconverter.com/?t=9%3A30%20am&tz=San%20Francisco&)
+- When: Every other Tuesday [8.15AM Pacific Time](https://www.thetimezoneconverter.com/?t=9%3A30%20am&tz=San%20Francisco&)
 - Where: [`jovyan` Zoom](https://zoom.us/my/jovyan?pwd=c0JZTHlNdS9Sek9vdzR3aTJ4SzFTQT09) (pwd: c0JZTHlNdS9Sek9vdzR3aTJ4SzFTQT09)
 
-[8.0 milestone](https://github.com/jupyter-widgets/ipywidgets/milestone/30)
+## 6 June 2023
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Matt Craig | MSU Moorhead| @mwcraig |
+| Itay Dafna | Netflix | @ibdafna |
+| Paddy Mullen | independent | @paddymul |
+| Martin Renou | QuantStack | @martinRenou |
+| Trung Le | QuantStack | @trungleduc |
+| David Brochart | QuantStack | @davibrochart |
+
+* Propose a SciPy widgets BoF? Matt will propose one
+* [Paddy]:
+    * Feedback about the cookiecutter
+* [Itay]:
+    * Triage
+    * Update team compass to show new meeting time/cadence
+    * SSC updates
+* [David]:
+    * Move [ypywidgets](https://github.com/jupyter-widgets/ipywidgets/issues/3777) to ipywidgets? We'll try to have feature-parity with basic ipywidgets and come back to resume discussions.
+* Propose a SciPy widgets BoF? Matt will propose one
+* Decision on cookiecutter -- put a deprecation of the JS flavor to a vote by the council, and focus on the TS flavor as the supported way.
+* Suggestion by Martin is to wait until `ypywidgets` support more of the front-ends the current `ipywidgets` supports.
+* Next meeting: Tue, June 20
+
+
+## 23 May 2023
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Itay Dafna | Netflix | @ibdafna |
+| Matt Craig | MSU Moorhead| @mwcraig |
+| Martin Renou | QuantStack| @martinRenou |
+
+* [Itay]: we should update the meeting time on the `team-compass` repo to reflect 8:15am start instead of 8:30am PT.
+* Discussions from JupyterCon:
+    * Typescript cookiecutter not working?
+    * Should we settle on one cookitcutter repo instead of two?
+    * Good opportunity to try the alternative to cookiecutter suggested by Steve -- [`copier`](https://copier.readthedocs.io/en/stable/)?
+* [Martin] JupyterLab 4 / Lumino 2 update https://github.com/jupyter-widgets/ipywidgets/pull/3752
+
+* Next meeting: Tue, June 6
+
+## 02 May 2023
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Itay Dafna | Netflix | @ibdafna |
+| Jason Grout | Databricks | @jasongrout |
+| David Brochart | QuantStack | @davidbrochart |
+| Paul Ivanov | Project Jupyter | @ivanov |
+
+
+* New meeting time:
+    * 8:15am-9:00am, PT, every two weeks, starting on the 23rd of May
+* SSC+EC update at JupyterCon
+    * Create one or two slides per subproject
+    * Highlight one or two recent or near future developments/releases you are excited about (anytime from 2022 to present time)
+    * Highlight one or two things you’d like other Jupyter subprojects to know for coordination/discussion/collaboration
+
+    * ipywidgets 8 released last summer
+
+
+## 24 Apr 2023
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Itay Dafna | Netflix | @ibdafna |
+| Maarten Breddels | Widgetti | @maartenbreddels
+
+* Future meeting time still being decided - will update later today after we get more responses.
+
+
+
+## 17 Apr 2023
+
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Itay Dafna | Netflix | @ibdafna |
+| Paul Ivanov | Project Jupyter | @ivanov |
+| Jason Grout | Databricks | @jasongrout |
+| Suhyun Kim | Dspractice.com | @gitskim
+
+* Weekly Meeting
+    * Itay sent out doodle
+        * https://doodle.com/meeting/participate/id/eE0GOPgd
+* SSC meeting
+    * Reviewed JEP JEP
+    * Looked at kernel startup handshake
+    * [meeting notes](https://docs.google.com/document/d/e/2PACX-1vQ1dJs_QMbOG-cEBcdM_KyLcMbsKcU781araeV-ui1h9HZi8Lbo5Qg2Jl46Q9X2ovQl1YTA1YsRGHC1/pub)
+* Triage
+
+
+
+## 10 Apr 2023
+
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Jason Grout | Databricks | @jasongrout |
+| Nick Bollweg | Georgia Tech | @bollwyvl |
+| Itay Dafna | Netflix | @ibdafna |
+
+
+* Weekly Meeting
+    * Sparse attendance recently
+    * [Itay] Send out a new survey for a 30 minute meeting
+* Triage
+
+
+
+
+## 03 Apr 2023
+
+* Meeting was canceled due to low attendance
+
+
+## 27 Mar 2023
+
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Kellie Tay | Bloomberg | @kellietay 
+| Jason Grout | Databricks | @jasongrout |
+
+* Triage
+
+
+
+
+## 13 Mar 2023
+
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Kellie Tay | Bloomberg | @kellietay 
+| Jason Grout | Databricks | @jasongrout |
+| Supriya Khandekar | Bloomberg | @supriyakhandekar 
+| Steve Purves | Curvenote | @stevejpurves |
+| Nick Bollweg | Georgia Tech | @bollwyvl |
+||||
+
+
+
+
+- Triage
+- Nick: `ipykernel`, `widgetsnbextension`, `jupyterlab_widgets` dependencies
+  - on `@jupyterlite/pyodide-kernel`, looking to optimize on-the-wire deps
+  - adding [more hacks](https://github.com/jupyterlite/pyodide-kernel/pull/27) to avoid downloading things over ~100kb
+
+
+
+
+## 6 Mar 2023
+
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Kellie Tay | Bloomberg | @kellietay 
+| Jason Grout | Databricks | @jasongrout |
+| Supriya Khandekar | Bloomberg | @supriyakhandekar 
+| Itay Dafna | Netflix | @ibdafna |
+
+
+- [ypywidgets](https://github.com/davidbrochart/ypywidgets)
+- Triage
+- 
+
+
+
+
+
+## 20 Feb 2023
+
+  * PRs
+      * https://github.com/jupyter-widgets/ipywidgets/pull/3699/files
+     
+
+## 13 Feb 2023
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Maarten Breddels | | @maartenbreddels |
+| Kellie Tay | Bloomberg | @kellietay 
+| Jason Grout | Databricks | @jasongrout |
+
+
+ * PRs
+     * https://github.com/jupyter-widgets/ipywidgets/pull/3689
+
+ * Discuss
+     * https://github.com/jupyter-widgets/ipywidgets/issues/3692#issuecomment-1428462243
+     * https://github.com/jupyter-widgets/ipywidgets/issues/3698
+     * https://github.com/jupyter-widgets/ipywidgets/issues/3695
+
+
+
+
+## 6 Feb 2023
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Itay Dafna | Netflix | @ibdafna |
+| Maarten Breddels | | @maartenbreddels |
+| Sylvain Corlay | QuantStack | @QuantStack |
+| Kellie Tay | Bloomberg | @kellietay 
+
+1. SSC meeting report by Itay:
+    * Nothing specific regarding widgets.
+2. Sylvain: xwidgets protocol 2.1
+    * https://github.com/jupyter-xeus/xwidgets/pull/251
+3. Sylvain: widgets schemas should be JSON schemas
+4. RTC Widgets
+    * Schedule a demo of jupytercad and ywidgets   
+6. Maarten Breddels
+    * https://github.com/jupyter-widgets/ipywidgets/issues/3692
+    * https://github.com/jupyter-widgets/ipywidgets/pull/3689
+    * Plans to do a release after fixing the above
+7. Kellie to follow up on documentation discussion from the London workshop
+
+
+## 30 Jan 2023
+
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Jason Grout | Databricks | @jasongrout |
+| Itay Dafna | Netflix | @ibdafna |
+
+* [Itay] Run another meeting time poll that gives available, available if necessary, and not available options
+* What does success look like for ipywidgets in 2023?
+* ipflow: https://github.com/ipyflow/ipyflow#integration-with-ipywidgets
+* PR Review
+	* https://github.com/jupyter-widgets/ipywidgets/pull/3682
+
+
+
+## 23 Jan 2023
+
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Jason Grout | Databricks | @jasongrout |
+| Maarten Breddels | | @maartenbreddels |
+| Itay Dafna | Netflix | @ibdafna |
+| Nick Bollweg |||
+||||
+
+
+* https://github.com/jupyter-widgets/ipywidgets/pull/3673
+* Meeting time
+* Keeping notes
+
+
+
+## 13 Dec 2022
+
+
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Vidar T Fauske | JP Morgan Chase | @vidartf |
+| Jason Grout | Databricks | @jasongrout |
+| Kellie Tay | Bloomberg | @kellietay |
+| Itay Dafna | Netflix | @ibdafna |
+
+- Triage: https://github.com/jupyter-widgets/ipywidgets/pulse
+- Maarten Breddels made a release. Hooray!
+- Meetings through the end of the year
+	- Canceling ipywidgets dev meeting until January 10, 2023. Happy new year!
+	- Itay will send an email to council and post on the team compass a poll for a new meeting time that may work better.
+
+- Upcoming conferences:
+	- PyData Seattle (April)
+	- PyCon US (April)
+	- JupyterCon (May)
+
+
+## 6 Dec 2022
+
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Jason Grout | Databricks | @jasongrout |
+| Supriya Khandekar  | Bloomberg LP | @supriyakhandekar |
+| Kellie Tay | Bloomberg | @kellietay |
+| Maarten Breddels |  | @maartenbreddels |
+
+
+
+- Adjust weekly meeting time
+- Triage: https://github.com/jupyter-widgets/ipywidgets/pulse
+- Maarten Breddels: Should I make a release?
+
+- SSC
+
+
+
+## 29 Nov 2022
+
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Vidar T Fauske | JP Morgan Chase | @vidartf |
+| Jason Grout | Databricks | @jasongrout |
+| Steve Purves | Curvenote | @stevejpurves |
+| Supriya Khandekar  | Bloomberg LP | @supriyakhandekar |
+| Maarten Breddels || @maartenbreddels |
+| Itay Dafna | Netflix | @ibdafna |
+
+- [Vidar] SSC: Itay is our SSC representative! One-year term.
+  - Need to update widgets team compass with council membership, representative, and term length
+- [Steve] Questions: Thebe moving to KernelWidgetManager, examples of loading widget state
+  - In ipywidgets 8, we use Lumino widgets
+  - Loading widget state: 
+    - JupyterLab: https://github.com/jupyter-widgets/ipywidgets/blob/master/python/jupyterlab_widgets/src/manager.ts#L514
+    - HTML manager: https://github.com/jupyter-widgets/ipywidgets/tree/master/packages/html-manager/src
+
+
+- Jupyter Executive Council elections ongoing this week - if you are on a Jupyter council, please vote!
+- PyData Global: Dec 1-3 https://pydata.org/global2022/
+- Triage: https://github.com/jupyter-widgets/ipywidgets/pulse
+    - [Maarten] https://github.com/jupyter-widgets/ipywidgets/pull/3642
+      - for future: we could have traits opt in to batch update
+    - https://github.com/jupyter-widgets/ipywidgets/issues/3630
+    - https://github.com/jupyter-widgets/ipywidgets/issues/3640
+    - https://github.com/jupyter-widgets/ipywidgets/issues/3641
+
+
+## 22 Nov 2022
+
+
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Vidar T Fauske | JP Morgan Chase | @vidartf |
+| Jason Grout | Databricks | @jasongrout |
+|Itay Dafna| Netflix | @ibdafna |
+
+
+
+- SSC: Vidar is tallying the results
+- EC election
+  - Useful if Brian, Darian, and Fernando post their interest answers
+
+
+## 15 Nov 2022
+
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Vidar T Fauske | JP Morgan Chase | @vidartf |
+| Jason Grout | Databricks | @jasongrout |
+| Maarten Breddels | - | @maartenbreddels |
+|Itay Dafna| Netflix | @ibdafna |
+| Pete Blois | Google | @blois |
+| Martin Renou | QuantStack | @martinRenou |
+| Supriya Khandekar | Bloomberg |@supriyakhandekar |
+| Kellie Tay | Bloomberg | @kellietay |
+
+- Maarten: issue
+  - https://github.com/jupyter-widgets/ipywidgets/issues/3635
+  - Maarten to open a PR to revert and possibly a second PR to reenable 
+
+- Pete: rich output progress: https://github.com/jupyterlab/richoutput-js
+  - https://github.com/blois/richoutput-js/tree/comms_n_widgets
+  - a stab at a renderer which supports widgets on top of it: https://github.com/blois/portable-widget-manager/tree/main
+
+- Martin: Voila removing the custom widget manager and reusing the JupyterLab `KernelWidgetManager` manager
+  - https://github.com/voila-dashboards/voila/pull/1249
+  - Needs https://github.com/jupyter-widgets/ipywidgets/pull/3561 for the `Output` widget. Vidar reviewing.
+
+- Vidar: SSC representative: email went out on Saturday to the Jupyter Widgets council to vote for an SSC representative. Deadline is Sunday, 20 Nov 2022, anywhere on earth.
+  - Jason to post an email about having 1-year terms for SSC rep
+- Jason: EC election starting very soon: https://jupyter.org/governance/intro.html, https://jupyter.org/governance/bootstrapping_executive_council.html
+- triage:
+  - https://github.com/jupyter-widgets/ipywidgets/pulls
+
+
+
+
+## 08 Nov 2022
+
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Jason Grout | Databricks | @jasongrout |
+| Vidar T Fauske | JP Morgan Chase | @vidartf |
+||||
+
+- Notes in team-compass: https://github.com/jupyter-widgets/team-compass
+- Jupyter-widgets SSC representative
+  - Election of SSC representative
+    - if there are two people, then any form that chooses between the two people and has a "blank" option works
+    - if there are more than two people, the ballot is ranked-choice.
+    - Election run for 1 week
+- reviewers: https://github.com/jupyter-widgets/ipywidgets/pulls
 
 
 ## 01 Nov 2022
