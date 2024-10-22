@@ -30,4 +30,4 @@ This page lists (alphabetically) the officially named Jupyter Widgets Team.
 
 Each *official* subproject in Jupyter gets a single [Software Steering Council representative](https://jupyter.org/governance/software_steering_council.html#software-steering-council). Jupyter Widgets' representative is elected by the active team members. In the Jupyter Widgets subproject, our representative is elected to a one-year term.
 
-Jupyter Widgets's SSC representative is Itay Dafna.
+Jupyter Widgets's SSC representative is Sylvain Corlay.
