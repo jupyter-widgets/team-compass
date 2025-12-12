@@ -3,6 +3,203 @@
 - When: Every other Tuesday [8.15AM Pacific Time](https://www.thetimezoneconverter.com/?t=9%3A30%20am&tz=San%20Francisco&)
 - Where: [`jovyan` Zoom](https://zoom.us/my/jovyan?pwd=c0JZTHlNdS9Sek9vdzR3aTJ4SzFTQT09) (pwd: c0JZTHlNdS9Sek9vdzR3aTJ4SzFTQT09)
 
+
+# 19 July 2024
+
+| Name           | Affiliation | GitHub         |
+|----------------|-------------|----------------|
+| Matt Craig  |  MSU Moorhead | @mwcraig |
+| Nick Bollweg | Georgia Tech | @bollwyvl  | 
+
+- Talked about adjacent topics
+    - [ipyautoui](https://github.com/maxfordham/ipyautoui/tree/main)
+    - [AsyncAPI](https://www.asyncapi.com/)
+    - [msgspec](https://jcristharif.com/msgspec/)
+    - [anywidget](https://github.com/manzt/anywidget)
+    - [proposal-signals](https://github.com/tc39/proposal-signals)
+- Nick demoed a project [ipyprofiler](https://deathbeds.github.io/ipyprofiler/) he is working on for profiling and showing call graphs in JavaScript.
+
+# 5 July 2024
+
+| Name           | Affiliation | GitHub         |
+|----------------|-------------|----------------|
+| Matt Craig  |  MSU Moorhead | @mwcraig |
+| Trung Le   | QuantStack  | @trungleduc   | 
+| Sylvain Corlay | QuantStack | @SylvainCorlay |
+
+1. ipywidgets 7 and JupyterLab 4 -- go ahead with a patch release of 7 to allow compatibility with JupyterLab 4.
+2. controls from ipywidgets 7 with manager from ipywidgets 8 -- A couple of proposed solutions were discussed. Trung will try them out.
+
+# 21 June 2024
+
+| Name           | Affiliation | GitHub         |
+|----------------|-------------|----------------|
+| David Brochart | QuantStack  | @davidbrochart |
+| Martin Renou   | QuantStack  | @martinRenou   |
+| Nick Bollweg | Georgia Tech | @bollwyvl |
+
+
+1. Nick: Demo about profiler widget showing the pain points of creating in Python (not yet published on Github)
+
+2. Replacing backbone? https://github.com/tc39/proposal-signals
+
+3. Making widgets accessible? The slider would not work well with a screen reader
+
+# 7 June 2024
+
+| Name           | Affiliation | GitHub         |
+|----------------|-------------|----------------|
+| Sylvain Corlay | QuantStack  | @SylvainCorlay |
+| David Brochart | QuantStack  | @davidbrochart |
+| Matt Craig     | MSUM        | @mwcraig       |
+| Martin Renou   | QuantStack  | @martinRenou   |
+
+## Agenda
+
+1. New release of ipywidgets enabling the display of widgets in consoles.
+
+2. Discussion about organization of the byweekly.
+
+3. Discussion about collaborative widgets (ypywidgets)
+
+4. Move of ipydatagrid from Bloomberg to jupyter-widgets: we should put out a blog post about the new project.
+
+# 24 May 2024
+
+| Name           | Affiliation | GitHub         |
+|----------------|-------------|----------------|
+| Sylvain Corlay | QuantStack  | @SylvainCorlay |
+| Martin Renou   | QuantStack  | @martinRenou   |
+| David Brochart | QuantStack  | @davidbrochart |
+
+## Agenda
+
+ - Discuss meeting scheduling?
+ - Announce merging PR on supporting widgets in JupyterLab consoles 🎉
+      - https://github.com/jupyter-widgets/ipywidgets/pull/3004
+ - Some CI fixes:
+      - https://github.com/jupyter-widgets/ipywidgets/pull/3919
+      - https://github.com/jupyter-widgets/ipywidgets/pull/3918
+
+- Discuss YJS-based backbone PolyFill
+- Monkeypatch BackboneJS with YJS?
+
+# 19 December 2023
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Itay Dafna | Netflix | @ibdafna |
+
+# 5 December 2023
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Nick Bollweg | Georgia Tech | @bollwyvl |
+| Itay Dafna | Netflix | @ibdafna |
+
+* Audio issues - meeting cancelled
+
+# 10 October 2023
+
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Jason Weill | AWS | @JasonWeill |
+| Piyush Jain | AWS | @3coins |
+| Itay Dafna | Netflix | @ibdafna |
+| Nick Bollweg | Georgia Tech | @bollwyvl |
+| Martin Renou | QuantStack | @martinRenou |
+
+## Agenda
+
+Piyush
+ - https://github.com/jupyter-widgets/ipywidgets/issues/3798#issuecomment-1740131438
+     - Tested the ImageWidget as well, and it also does not work with a Kernel Gateway
+     - Chat thread on Gitter: https://matrix.to/#/!YRSHKlJcIMDztevnpc:gitter.im/$_g9_XHWdxxIOwrc2ZozqlWCJY9MqxQaNE90oUtgRiF8?via=gitter.im&via=matrix.org&via=laas.fr
+
+Nick
+ - Fix for MathJax in progress
+     - https://github.com/jupyter-widgets/ipywidgets/pull/3847
+
+* Triage
+
+
+
+
+# 12 September 2023
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Martin Renou | QuantStack | @martinRenou |
+| Matt Craig | MSUM | @mwcraig |
+| Itay Dafna | Netflix | @ibdafna |
+
+* Discussion:
+    * Martin:
+        * Issue https://github.com/jupyter-widgets/ipywidgets/issues/3735 fixed by reverting recent changes in serialization https://github.com/jupyter-widgets/ipywidgets/pull/3830
+
+# 29 August 2023
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Eric Gentry | Anaconda | @ericsnekbytes |
+| Matt Craig | MSUM | @mwcraig |
+| Itay Dafna | Netflix | @ibdafna |
+
+* Documentation working group proposal!
+    * https://github.com/jupyterlab/jupyterlab/issues/15011
+    * Seeking contributors
+
+* Vote on deprecating the JS cookiecutter
+    * https://github.com/jupyter-widgets/team-compass/issues/25
+
+# 15 August 2023
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Matt Craig | MSUM | @mwcraig |
+| Itay Dafna | Netflix | @ibdafna |
+
+* Issue triage
+    * Issue [#3824](https://github.com/jupyter-widgets/ipywidgets/issues/3824) -- Itay will look at it.
+    * Issue [#3823](https://github.com/jupyter-widgets/ipywidgets/issues/3823) -- Itay will look at it.
+    * Issue [#3822](https://github.com/jupyter-widgets/ipywidgets/issues/3822) -- Needs triaging to see what the expected output is.
+    * Issue [#3821](https://github.com/jupyter-widgets/ipywidgets/issues/3821) -- Deferriung to a later meeting.
+* Pull requests
+    * PR [#3780](https://github.com/jupyter-widgets/ipywidgets/pull/3780) -- merged
+    * PR [#3792](https://github.com/jupyter-widgets/ipywidgets/pull/3792) -- merged
+* Itay won't be in the next meeting on the 29th (summer holiday)
+
+# 18 July 2023
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Matt Craig | MSUM | @mwcraig |
+| Martin Renou | QuantStack | @martinRenou |
+| Itay Dafna | Netflix | @ibdafna |
+
+# 18 July 2023
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Matt Craig | MSUM | @mwcraig |
+| Martin Renou | QuantStack | @martinRenou |
+| Paddy Mullen | Buckaroo | @paddymul |
+| Greg Freeman | Nvidia | @gregfreeman |
+
+* [Matt]
+  * Drag-and-drop PR (from SciPy sprints): https://github.com/jupyter-widgets/ipywidgets/pull/3803
+  * SciPy ipywidgets tutorial focused on nbdev/literate programming. Will collaborate with the preseneter on a proposal for next year.
+
+
+## 20 June 2023
+| Name | Affiliation | GitHub |
+|------|-------------|--------|
+| Itay Dafna | Netflix | @bdafna |
+| Martin Renou | QuantStack | @martinRenou |
+| Paddy Mullen | Buckaroo | @paddymul |
+| | | |
+
+* [Martin]:
+    * Jupyter Widgets contrib org: https://github.com/jupyter-widgets-contrib
+    * ipywidgets + Lumino 2 Lab 4: https://github.com/jupyter-widgets/ipywidgets/pull/3752
+* [Itay]:
+    * Recorded discussion around [deprecating](https://github.com/jupyter-widgets/team-compass/issues/25) the JS cookiecutetr
+* 
+
+
 ## 6 June 2023
 | Name | Affiliation | GitHub |
 |------|-------------|--------|
